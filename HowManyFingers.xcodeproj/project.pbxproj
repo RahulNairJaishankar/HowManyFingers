@@ -12,6 +12,7 @@
 		EFD7547A1BBF6BD500F4CA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD754781BBF6BD500F4CA18 /* Main.storyboard */; };
 		EFD7547C1BBF6BD500F4CA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD7547B1BBF6BD500F4CA18 /* Assets.xcassets */; };
 		EFD7547F1BBF6BD600F4CA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD7547D1BBF6BD600F4CA18 /* LaunchScreen.storyboard */; };
+		EFD754871BBF6D3000F4CA18 /* fingers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFD754861BBF6D3000F4CA18 /* fingers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EFD7547B1BBF6BD500F4CA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD7547E1BBF6BD600F4CA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFD754801BBF6BD600F4CA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD754861BBF6D3000F4CA18 /* fingers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fingers.jpg; path = ../../fingers.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				EFD754741BBF6BD500F4CA18 /* AppDelegate.swift */,
 				EFD754761BBF6BD500F4CA18 /* ViewController.swift */,
 				EFD754781BBF6BD500F4CA18 /* Main.storyboard */,
+				EFD754861BBF6D3000F4CA18 /* fingers.jpg */,
 				EFD7547B1BBF6BD500F4CA18 /* Assets.xcassets */,
 				EFD7547D1BBF6BD600F4CA18 /* LaunchScreen.storyboard */,
 				EFD754801BBF6BD600F4CA18 /* Info.plist */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFD754871BBF6D3000F4CA18 /* fingers.jpg in Resources */,
 				EFD7547F1BBF6BD600F4CA18 /* LaunchScreen.storyboard in Resources */,
 				EFD7547C1BBF6BD500F4CA18 /* Assets.xcassets in Resources */,
 				EFD7547A1BBF6BD500F4CA18 /* Main.storyboard in Resources */,
@@ -251,6 +255,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RNJ.HowManyFingers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -262,6 +267,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.RNJ.HowManyFingers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
